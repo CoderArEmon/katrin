@@ -1,0 +1,31 @@
+#brand{
+    background-color: #e9f1f1;
+}
+
+.brand-slider img{
+    width: 100%;
+}
+
+.brand-slider .item{
+    background-color: #fff;
+}
+
+.brand-slider .slick-slide{
+    margin: 12px;
+}
+
+.brand-slider .slick-dots li.slick-active button:before{
+    color: #9fa3a3;
+}
+
+.brand-slider .slick-dots li button:before{
+    font-size: 12px;
+}
+
+.brand-slider .slick-next:before,
+.brand-slider .slick-prev:before{
+    color: #9fa3a3;
+    font-size: 34px;
+}
+
+

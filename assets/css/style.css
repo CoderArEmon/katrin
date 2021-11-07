@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #151514;
+}
+a:hover{
+    text-decoration: none;
+    color: #f0801c;
+}
+
+ul{
+    list-style: none;
+}
+
+.side_btn{
+    border-radius: 0;
+    padding: 30px 10px;
+    background-color: #486d8f;
+    color: #fff;
+    font-weight: 600;
+}
+.side_btn:hover{
+    color: #fff;
+}
+
+/* Change Default Styles */
+.input-group-text{
+    background: transparent;
+    border-left: 1px solid transparent;
+}
+
+.form-control{
+    border-radius: 0px;
+    border-right: 1px solid transparent;
+    height: calc(1.5em + 0.75rem + 5px);
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: #ced4da;
+    border-right: 1px solid transparent;
+}
+
+.input-group-text{
+    border-radius: 0px;
+}
+
+.navbar-nav{
+    margin-left: 260px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    border-bottom: 5px solid #d7d4d1;
+    color: #555555;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #00060e;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f0801c;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: .5rem;
+    margin-left: .5rem;
+    padding: 0;
+}
+
+/* Start TopBar Section */
+
+#topbar .fa-user, #topbar .fa-shopping-cart{
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #333335;
+    border-radius: 50px;
+    color: #333335;
+}
+#topbar .user_zone a{
+    font-size: 16px;
+    color: #333335;
+}
+#topbar .user_zone a:hover{
+    color: #f0801c;
+}
+
+#topbar .logo{
+    max-width: 60%;
+}
+
+/* End TopBar Section */
+
+/* Start Content Section */
+#content ul li{
+    line-height: 34px;
+}
+#content ul li a{
+    color: #000000;
+    font-size: 18px;
+    transition: 0.3s;
+}
+#content ul li a:hover{
+    color: #f0801c;
+}
+#content ul li .fa-chevron-right{
+    color: #dad5d5;
+}
+#content .about_section h2{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    line-height: 30px;
+}
+#content .about_section p{
+    font-size: 13px;
+    color: #333333;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/* End Content Section */
+
+
+/* Start Product Section */
+#product p{
+    font-size: 13px;
+    color: #333333;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+#product a{
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #cc0000;
+    color: #fff;
+    border: 1px solid #cc0000;
+    border-radius: 0;
+    height: 60px;
+}
+
+#product a:hover{
+    background-color: #fff;
+    color: #cc0000;
+}
+
+/* End Product Section */
+
+/* Start Service Section */
+#service h2{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+}
+#service p{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#service a:hover{
+    color: #23527c;
+    text-decoration: underline;
+}
+/* End Service Section */
+
+/* Start Footer Section */
+#footer h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+#footer p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+#footer ul li{
+    line-height: 30px;
+}
+
+/* End Footer Section */
+
+
+/* Start Copyright Section  */
+#copyright p{
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* End Copyright Section */

@@ -1,0 +1,27 @@
+@media(max-width: 991px){
+    #topbar span.details{
+        display: none;
+    }
+
+    #topbar .search_box{
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 788px){
+    .side_btn{
+        display: none;
+    }
+}
+
+
+@media(max-width: 767px){
+    .about_section h2{
+        margin-top: 20px;
+    }
+
+    #topbar .logo {
+        margin: 0 auto !important;
+        display: block !important;
+    }
+}
